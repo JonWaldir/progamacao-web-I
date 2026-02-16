@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Banco Digital com serviços de investimentos e muito mais.">
+    <title>Banco Aleph</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+      <div class="logo">
+          <img src="img/LOGO.png" alt="Logo Banco Aleph">
+      </div>
+      <nav>
+          <ul>
+              <li><a href="index.html">Início</a></li> <!-- Página inicial -->
+              <li><a href="servicos.html">Serviços</a></li> <!-- Página de Serviços -->
+              <li><a href="area-cliente.html">Área do Cliente</a></li> <!-- Página de Login -->
+              <li><a href="contato.html">Contato</a></li> <!-- Página de Contato -->
+          </ul>
+      </nav>
+  </header>
+
+  <!-- Banner Principal -->
+  <section id="home" class="banner">
+      <div class="banner-content">
+          <h1>Bem-vindo ao Banco Aleph</h1>
+          <p>Transforme sua experiência financeira com nosso banco digital.</p>
+          <a href="area-cliente.html" class="cta-button">Acesse sua conta</a> <!-- Redireciona para Área do Cliente -->
+      </div>
+  </section>
+
+  <!-- Seção de Serviços -->
+  <section id="servicos" class="services">
+      <h2>Serviços que Oferecemos</h2>
+      <div class="service-item">
+          <h3><a href="investimentos.html">Investimentos</a></h3> <!-- Link para Investimentos -->
+          <p>Explore uma gama de produtos financeiros para multiplicar seu patrimônio.</p>
+      </div>
+      <div class="service-item">
+          <h3><a href="emprestimos.html">Empréstimos</a></h3> <!-- Link para Empréstimos -->
+          <p>Empréstimos com taxas acessíveis para atender suas necessidades.</p>
+      </div>
+      <div class="service-item">
+          <h3><a href="cartao.html">Cartão de Crédito</a></h3> <!-- Link para Cartão de Crédito -->
+          <p>Abra sua conta e receba seu cartão de forma rápida e fácil.</p>
+      </div>
+  </section>
+
+  <!-- Área do Cliente -->
+  <section id="area-cliente" class="client-area">
+      <h2>Acesse sua Conta</h2>
+      <form action="login.html" method="POST">
+          <label for="username">Usuário:</label>
+          <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" placeholder="Digite sua senha">
+          <button type="submit">Entrar</button>
+      </form>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contact">
+      <h2>Entre em Contato</h2>
+      <p>Tem alguma dúvida? Estamos aqui para ajudar!</p>
+      <a href="mailto:contato@bancoaleph.com">contato@bancoaleph.com</a>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+      <p>&copy; 2024 Banco Aleph - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

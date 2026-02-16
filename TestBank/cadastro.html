@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastro de novo cliente no Banco Aleph.">
+    <title>Cadastro - Banco Aleph</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Logo Banco Aleph">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="area-cliente.html">Área do Cliente</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulário de Cadastro -->
+    <section class="client-area">
+        <h2>Cadastrar-se</h2>
+        <form action="cadastro-submit.html" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF">
+            <label for="data-nascimento">Data de Nascimento:</label>
+            <input type="date" id="data-nascimento" name="data-nascimento">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+            <label for="renda">Renda:</label>
+            <input type="number" id="renda" name="renda" placeholder="Sua renda mensal">
+            <label for="telefone">Telefone Celular:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone celular">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie sua senha">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Banco Aleph - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

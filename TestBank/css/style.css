@@ -1,0 +1,336 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #111; /* Fundo escuro para contraste */
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #003366, #004e92); /* Gradiente azul escuro */
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fcb800; /* Cor vibrante para hover */
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(45deg, rgba(0, 70, 140, 0.8), rgba(0, 40, 80, 0.8)), url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+    border-bottom: 5px solid #004e92; /* Linha de separação */
+}
+
+.banner h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+    background: linear-gradient(135deg, #fcb800, #ffca00); /* Gradiente amarelo vibrante */
+    color: #2303b6;
+    padding: 12px 24px;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #fdbb00, #ffc107); /* Efeito hover para o botão */
+}
+
+/* Seção de Serviços */
+.services {
+    padding: 60px 20px;
+    background: #0f213a; /* Azul mais escuro */
+    text-align: center;
+    border-top: 5px solid #004e92;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #fcb800; /* Título com cor vibrante */
+}
+
+.service-item {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    background: #1a2a3a; /* Fundo escuro com contraste */
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    background: #004e92; /* Efeito hover */
+}
+
+.service-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+}
+
+/* Formulário Área do Cliente */
+.client-area {
+    background: #003366; /* Azul mais forte */
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.client-area form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-area input {
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1em;
+    border: 1px solid #fcb800;
+    border-radius: 5px;
+    background: #0f213a; /* Fundo escuro para inputs */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.client-area input:focus {
+    background-color: #004e92; /* Azul claro quando em foco */
+}
+
+.client-area button {
+    background: linear-gradient(135deg, #fcb800, #ffca00); /* Gradiente no botão */
+    color: #003366;
+    padding: 15px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.client-area button:hover {
+    background: linear-gradient(135deg, #fdbb00, #ffc107); /* Hover mais vibrante */
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(135deg, #003366, #004e92); /* Gradiente no rodapé */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Seção de Contato */
+.contact {
+    background: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact a {
+    color: #fcb800;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #fff;
+}
+
+/* Seção de Segurança */
+.security {
+    background: #003366;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .cta-button {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+
+    .client-area form {
+        width: 90%;
+    }
+}
+
+/* Seção de detalhes do serviço */
+.service-detail {
+    padding: 60px 20px;
+    background: #0f213a;
+    text-align: center;
+}
+
+.service-detail h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fcb800;
+}
+
+.service-detail p {
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Link de "Criar uma conta" no login */
+.create-account-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fcb800;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.create-account-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para as opções de serviços */
+.service-item a {
+    color: #fcb800;
+    text-decoration: none;
+}
+
+.service-item a:hover {
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card-img {
+    max-width: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da janela */
+}
+
+main {
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+}
+
+footer {
+    background: linear-gradient(135deg, #003366, #004e92); /* Gradiente no rodapé */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Garante que o rodapé esteja no final */
+}
+
+/* Estilo para opções de investimento */
+.investment-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #0f213a; /* Fundo escuro */
+}
+
+.investment-item {
+    background: #1a2a3a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%; /* Largura ajustável */
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.investment-item:hover {
+    transform: translateY(-10px);
+    background: #004e92;
+}
+
+.investment-item h3 {
+    color: #fcb800; /* Títulos vibrantes */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.investment-item p {
+    color: white;
+    font-size: 1.1em;
+}
+

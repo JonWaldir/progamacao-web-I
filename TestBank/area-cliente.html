@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acesse sua conta no Banco Aleph.">
+    <title>Área do Cliente - Banco Aleph</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Logo Banco Aleph">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="seguranca.html">Segurança</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área de Login -->
+    <section class="client-area">
+        <h2>Acesse sua Conta</h2>
+        <form action="login.html" method="POST">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+            <button type="submit">Entrar</button>
+        </form>
+        <a href="cadastro.html" class="create-account-link">Criar uma conta</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Banco Aleph - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
