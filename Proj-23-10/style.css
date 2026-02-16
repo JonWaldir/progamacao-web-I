@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+    margin: 0; /* Margem Externa*/
+    padding: 0; /* Margem Interna*/
+}
+
+body {
+    font-family: Arial, sans-serif; /*Define a fonte que sera usada no corpo da página*/
+    background-color: #f4f4f4;/*Define a cor de fundo do corpo da pagina*/
+}
+
+header {
+    background-color: #333;/*Define a cor de fundo do corpo da pagina*/
+    color: #fff;/*Define a cor da fonte(letra) do cabeçalhoi*/
+    text-align: center;/*Define o alinhamento que será usada nas palavras presentes no cabeçalho*/
+    padding: 20px;/*definir a distância entre o conteúdo de um elemento e suas bordas*/
+}
+
+header h1 {
+    font-size: 2.5rem;/*o tamanho da fonte será 2,5 vezes o tamanho da fonte do elemento raiz do documento*/
+}
+
+/* Estilo básico para o container com Flexbox */
+.container {
+    display: flex;/*Transforma um elemento em um flex container, permitindo que os elementos filhos sejam manipulados com novas propriedades*/
+    background-color: #DDDDDD;/*Define a cor de fundo do ccontainer da pagina*/
+    padding: 10px;/*Definir a distância entre o conteúdo de um elemento e suas bordas*/
+    margin: 20px auto; /* Margem Externa*/
+    max-width: 80%;/*Define a largura máxima que um elemento pode ter*/
+    border-radius: 5px;/*Arredonda as bordas de um elemento com um raio de 5 pixels*/
+}
+
+.box {
+    background-color: #333;/*Define a cor de fundo do box(caixa) da pagina*/
+    color: white;/*Define a cor da fonte(letra) do cabeçalho*/
+    padding: 20px;/*Definir a distância entre o conteúdo de um elemento e suas bordas*/
+    text-align: center;/*Define o alinhamento que será usada nas palavras presentes na box(caixa)*/
+    flex: 1;/*Flex é uma propriedade do CSS que define como um item será posicionado dentro do espaço disponível de seu container*/
+    margin: 10px;/* Margem Externa*/
+}
+
+/* Flexbox com direção invertida */
+.reversed {
+    flex-direction: row-reverse;/*indica que os elementos flex serão exibidos em linha, mas com as linhas inicial e final trocadas*/
+}
+
+/* Flexbox em colunas */
+.columns {
+    flex-direction:column;/*indica que os elementos flex serão exibidos em uma única coluna, de cima para baixo*/
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;/*Define a cor de fundo do rodape da pagina*/
+    color: #fff;/*Define a cor da fonte(letra) do rodape*/
+    text-align: center;/*Define o alinhamento que será usada nas palavras presentes no rodapé da pagina*/
+    padding: 10px;/*Definir a distância entre o conteúdo de um elemento e suas bordas*/
+    margin-top: 20px;/*indica que o elemento terá um espaço de 20 pixels acima dele: */
+}
+
+
