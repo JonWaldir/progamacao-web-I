@@ -1,0 +1,26 @@
+
+*{
+    margin: 10px;
+    font:normal 20pt Arial
+}
+th{
+    background-color:rgb(179, 179, 179);
+    border-radius: 5px 0px 5px 0px;
+}
+th{
+    border: 1px solid red;
+    width: 300px;
+    padding: 10px;
+   
+}
+tbody,td{
+    background-color: aqua;
+    border-bottom: 1px solid black;
+    padding: 12px;
+    text-align: center;
+
+}
+tbody,td:hover{
+    background-color: blue;
+    font:normal 24pt arial
+}
