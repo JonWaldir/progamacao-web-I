@@ -1,0 +1,15 @@
+marquee{
+    background-color: #CCC;
+    border: solid 1px #FF0000;
+    height: 100px;
+    line-height: 80px;
+    font-size: 28px;
+    color:rgb(10, 75, 10);
+    font-weight: bold;
+    width: 400px;
+    margin: 50px;
+    text-align: center;
+}
+body{
+    background-color: beige;
+}
