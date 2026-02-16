@@ -1,0 +1,82 @@
+*{
+    list-style: none; /* retira os marcadores*/
+    text-decoration: none; /*retira o undeline do link*/
+    margin: 2; /*marge Externa*/
+    padding: 0px; /*marge Interna*/
+    font-family: Verdana; /* fonte da palavras*/
+    color: #ffffff;
+
+}
+main{
+    margin-left: 30px;
+}
+.menu-h{
+    background-color: #000000; /*cor do fundo da div = header cabeçalho*/
+}
+.menu-h li{
+    display: inline;
+}
+.menu-h ul li a{
+    padding: 10px; /*margem interna*/
+    display: inline-block; /*link em linha de bloco*/
+   
+}
+.menu-h ul li:last-child  a {
+    float: right;
+    background-color: forestgreen;
+}
+body{
+    background-color: rgb(128, 245, 253)
+}
+img{
+    width: 100px;
+}
+.menu-h ul li a:hover{
+    background-color: forestgreen;
+}
+.box-orange{
+    background-color:orange ;
+    height: 300px;
+    width: 300px;
+    position: static;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.box-blue {
+    background-color:blue ;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -300px;
+    left: 320px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    text-align: center;
+  
+
+}
+.box-green{
+    background-color:green ;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -600px;
+    left: 640px;
+    border-radius: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.box-yellow{
+    background-color:yellow ;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -900px;
+    left: 960px;
+    border-radius: 30px;
+}
+
