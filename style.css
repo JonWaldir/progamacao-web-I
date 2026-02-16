@@ -1,0 +1,28 @@
+label{
+    display: block;
+}
+input[type=text]{
+    display: block;
+}
+fieldset{
+    margin-bottom: 50px;
+    width: 500px;
+    background-color: rgb(216, 216, 216);
+}
+legend{
+    padding: 5px;
+  
+}
+textarea{
+    height: 90px;
+    width: 250px;
+}
+input[type=checkbox]{
+    border-radius: 10px;
+
+}
+input[type=radio]{
+    margin-top: 10px;    
+    display: inline;
+    
+}
